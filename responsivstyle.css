@@ -70,7 +70,7 @@
         font-size: 20px; /* Küçültüldü */
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 415px) {
     .b1_text h2 {
         font-size: 40px; 
     }
