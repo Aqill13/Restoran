@@ -7,7 +7,8 @@
 
     <!--? style css -->
     <link rel="stylesheet" href="style.css" />
-  
+    <link rel="stylesheet" href="responsivstyle.css" />
+
     <!--? font aweshome -->
     <link
       rel="stylesheet"
@@ -37,46 +38,55 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!--? splide JS (SCROLL)-->
+    <link
+      href="
+      https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body style="width: 80%; margin: auto">
     <nav class="navbar navbar-expand-lg navbar-light py-3">
-        <div class="container-fluid">
-            <!-- Logo (en solda) -->
-            <img src="/images/logo.png" alt="logo" style="margin-left: -23px" />
+      <div class="container-fluid">
+        <!-- Logo (en solda) -->
+        <img src="/images/logo.png" alt="logo" style="margin-left: -23px" />
 
-            <!-- Toggler Button (mobil cihazlar için) -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Toggler Button (mobil cihazlar için) -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Linkler (ortada) -->
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link activelink">Ev</a></li>
-                    <li class="nav-item"><a class="nav-link">Menyu</a></li>
-                    <li class="nav-item"><a class="nav-link">Haqqımızda</a></li>
-                    <li class="nav-item"><a class="nav-link">Rezervasiya</a></li>
-                    <li class="nav-item"><a class="nav-link">Qaleriya</a></li>
-                    <li class="nav-item"><a class="nav-link">Əlaqə</a></li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Linkler (ortada) -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link activelink">Ev</a></li>
+            <li class="nav-item"><a class="nav-link">Menyu</a></li>
+            <li class="nav-item"><a class="nav-link">Haqqımızda</a></li>
+            <li class="nav-item"><a class="nav-link">Rezervasiya</a></li>
+            <li class="nav-item"><a class="nav-link">Qaleriya</a></li>
+            <li class="nav-item"><a class="nav-link">Əlaqə</a></li>
+          </ul>
 
-                <!-- Giriş ve Kayıt Butonları (en sağda) -->
-                <div class="navbar-icon d-flex gap-3">
-                    <a href="" class="authbtn">Daxil ol</a>
-                    <a href="" class="authbtn">Qeydiyyat</a>
-                </div>
-            </div>
+          <!-- Giriş ve Kayıt Butonları (en sağda) -->
+          <div class="navbar-icon d-flex gap-3">
+            <a href="" class="authbtn">Daxil ol</a>
+            <a href="" class="authbtn">Qeydiyyat</a>
+          </div>
         </div>
+      </div>
     </nav>
-    <hr style="margin-top: -2px;">
+    <hr style="margin-top: -2px" />
     <main>
+      <!--? Bolum 1 -->
       <section id="bolum1" class="sayfa">
         <div class="b1_text b1">
           <h2>Məkan <span>Dadlı</span><br />Yemək dadlı</h2>
@@ -157,7 +167,227 @@
           />
         </div>
       </section>
-    </main>
-</body>
 
+      <!--? Bölüm 2 -->
+      <section id="bolum2" class="sayfa">
+        <h2>Niyə bizi seçməlisiniz?</h2>
+        <div class="b2_boxes">
+          <div class="b2_box">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Keyfiyyətli qida</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              fugiat accusantium accusamus voluptate eum sunt aut repellendus,
+              neque rem sed.
+            </p>
+          </div>
+          <div class="b2_box">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h3>Sağlam qida</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              fugiat accusantium accusamus voluptate eum sunt aut repellendus,
+              neque rem sed.
+            </p>
+          </div>
+          <div class="b2_box">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Sürətli çatdırılma</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              fugiat accusantium accusamus voluptate eum sunt aut repellendus,
+              neque rem sed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--? Bölüm 3 -->
+      <section id="bolum3" class="sayfa">
+        <div class="b3_boxes">
+          <div class="b3_img">
+            <img
+              src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-pizza-food-fast-food-cartoon-illustration-decorative-pattern-png-image_6656898.png"
+              alt="b3_img"
+            />
+          </div>
+          <div class="b3_content">
+            <h2>Haqqımızda</h2>
+            <p>
+              Əsasən yeməksevərlərin xoşbəxtlik və zövq almaq üçün yaradılmış
+              restoranımız, yemək məkanları arasında istənilən mənzilə
+              çatmışdır. Yemək memarlığındakı peşəkarlığımız, təcrübəmiz və
+              mövqeyimizlə, müştərilərimizə möhtəşəm bir təcrübə təklif edirik.
+              Restoranımızda təzə, peşəkar və yağsız təamlarımız, möhtəşəm
+              atmosferimiz və əyləncəli tədbirlərimizlə, mükəmməl bir yemək
+              keyfi təmin edirik. Bizimlə birlikdə təcrübəli bir şefin mətnindən
+              istifadə edin və damaq tadınızı zövqləndirin. Sizə qonaq olmaqdan
+              məmnunluq duyacağıq!
+            </p>
+            <button class="b3_btn">Daha ətraflı</button>
+          </div>
+        </div>
+      </section>
+
+      <!--? Bölüm 4 -->
+      <section id="bolum4" class="sayfa">
+        <h2>Populyar yeməklər</h2>
+        <div class="splide my-5" role="group" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="b4_box">
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20230322/ourmid/pngtree-italian-pizza-gourmet-fast-food-cartoon-illustration-three-dimensional-decorative-pattern-png-image_6656982.png"
+                    alt="b4_img"
+                  />
+                  <div class="b4_box_name_star">
+                    <h3>Pizza - Marqairta</h3>
+                    <h3><span>4.6 </span><i class="fa-solid fa-star"></i></h3>
+                  </div>
+                  <div class="b4_box_price_moreBtn">
+                    <h4>20₼</h4>
+                    <button>Ətraflı</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+      var splide = new Splide( '.splide', {
+        perPage: 3,
+        gap: 40,
+        breakpoints: {
+          1250: {
+            perPage: 2
+          },
+          800: {
+            perPage: 1,
+            gap: 30
+          },
+          600: {
+            arrows: false
+          }
+        }
+      });
+      splide.mount();
+    </script>
+  </body>
 </html>
