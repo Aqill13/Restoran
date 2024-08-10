@@ -1,0 +1,71 @@
+/* Responsive Tasarım */
+@media (max-width: 992px) {
+    #bolum1 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        height: auto;
+        padding: 20px;
+    }
+
+
+
+    .food-img {
+        width: 270px; /* Küçültüldü */
+    }
+
+    .dialog {
+        width: 240px;
+    }
+
+    .shape {
+        width: 20px;
+    }
+
+    .shape-4 {
+        width: 40px;
+    }
+
+    .shape-5 {
+        width: 30px;
+    }
+
+    .b1_text h2 {
+        font-size: 60px; /* Mobil uyum için büyütüldü */
+    }
+
+    .b1_text p {
+        font-size: 1ş3em;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .b1_text_btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .b1_text_btns button {
+        width: 100%;
+        font-size: 23px; /* Küçültüldü */
+    }
+}
+
+@media (max-width: 576px) {
+    .b1_text h2 {
+        font-size: 70px; /* Daha küçük ekranlar için büyütüldü */
+    }
+    .food-img {
+        width: 200px; /* Küçültüldü */
+    }
+
+    .dialog {
+        width: 210px;
+    }
+    .b1_text p {
+        font-size: 1.5em;
+    }
+    .b1_text_btns button {
+        width: 100%;
+        font-size: 26px; /* Küçültüldü */
+    }
+}
