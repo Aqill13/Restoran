@@ -53,10 +53,10 @@
 
 @media (max-width: 576px) {
     .b1_text h2 {
-        font-size: 60px; /* Daha küçük ekranlar için büyütüldü */
+        font-size: 50px; 
     }
     .food-img {
-        width: 200px; /* Küçültüldü */
+        width: 200px; 
     }
 
     .dialog {
@@ -68,6 +68,11 @@
     .b1_text_btns button {
         width: 100%;
         font-size: 20px; /* Küçültüldü */
+    }
+}
+@media (max-width: 390px) {
+    .b1_text h2 {
+        font-size: 40px; 
     }
 }
 
