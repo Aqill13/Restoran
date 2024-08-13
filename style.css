@@ -329,6 +329,7 @@
 
 .b3_boxes .b3_img {
     width: 100%;
+    margin-top: 50px;
 }
 
 .b3_boxes .b3_img img {
@@ -394,14 +395,47 @@
     right: 10px;
 }
 
-/*? Bolum 4 (populyar yemekler, scroll) */
+
+/*? BOLUM 4 (Kateqoriyalar) */
 
 #bolum4 {
-    padding: 40px 0;
     position: relative;
 }
 
 #bolum4 h2 {
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+.categoryCard{
+    background-color: #e5bd733e;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px dotted #9999;
+    padding: 5px;
+}
+.categoryCard img{
+    border-radius: 10px;
+    width: 180px;
+}
+.categoryCard h3{
+    width: 100%;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+
+/*? Bolum 5 (populyar yemekler, scroll) */
+
+#bolum5 {
+    padding: 40px 0;
+    position: relative;
+}
+
+#bolum5 h2 {
     font-family: "Tilt Neon", sans-serif;
     font-size: 50px;
     letter-spacing: 1.5px;
@@ -411,7 +445,7 @@
     padding: 5px;
 }
 
-.b4_box {
+.b5_box {
     margin-top: 63px;
     border-radius: 10px;
     box-shadow: 0 2px 5px #444;
@@ -421,18 +455,20 @@
     transition: 0.3s;
 }
 
-.b4_box:hover {
+.b5_box:hover {
     transform: translateY(-5px);
 }
 
-.b4_box img {
+.b5_box img {
     width: 250px;
     top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     position: absolute;
 }
 
-.b4_box .b4_box_name_star {
+.b5_box .b5_box_name_star {
     display: flex;
     justify-content: space-between;
     font-family: "Tilt Neon", sans-serif;
@@ -442,22 +478,23 @@
     color: #444;
 }
 
-.b4_box .b4_box_name_star h3 i {
+.b5_box .b5_box_name_star h3 i {
     color: orange;
 }
 
-.b4_box .b4_box_price_moreBtn {
+.b5_box .b5_box_price_moreBtn {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    align-items: center;
 }
 
-.b4_box .b4_box_price_moreBtn h4 {
+.b5_box .b5_box_price_moreBtn h4 {
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.b4_box .b4_box_price_moreBtn button {
+.b5_box .b5_box_price_moreBtn button {
     width: 100px;
     padding: 5px;
     font-size: 17px;
@@ -471,7 +508,80 @@
     cursor: pointer;
 }
 
-.b4_box .b4_box_price_moreBtn button:hover {
+.b5_box .b5_box_price_moreBtn button:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+
+/*? BOLUM 6 (Endirimli mehsullar) */
+
+#bolum6 {
+    position: relative;
+}
+
+#bolum6 h2 {
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+.b6_box{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #444;
+    padding: 20px;
+    min-width: 300px;
+    position: relative;
+    transition: 0.3s;
+}
+.b6_box span{
+    position: absolute;
+    background-color: rgb(253, 207, 122);
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 40px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    border-bottom-right-radius: 10px;
+}
+.b6_box img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.b6_box h3{
+    margin-top: 10px;
+    font-family: "Tilt Neon", sans-serif;
+    color: #444;
+}
+.b6_box .b6_box_price_moreBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b6_box .b6_box_price_moreBtn h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.b6_box .b6_box_price_moreBtn button {
+    width: 100px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: "Tilt Neon", sans-serif;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: #fff;
+    color: orange;
+    letter-spacing: 1.5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.b6_box .b6_box_price_moreBtn button:hover {
     background-color: orange;
     color: #fff;
 }
