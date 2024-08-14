@@ -431,3 +431,80 @@ body {
   }
 }
   
+
+/*? Bolum 8 Rezervasiya */
+@media (max-width: 1024px) {
+  #bolum8 {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .b8_img {
+      margin-bottom: 20px;
+  }
+
+  .b8_img img {
+      margin-right: 0;
+      margin-top: 0;
+      max-width: 80%;
+  }
+
+  .b8_content {
+      width: 100%;
+      padding: 0 20px;
+  }
+
+  .reservation .form-row {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .reservation .form-row input, 
+  .reservation .form-row textarea {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .b8_content .reservation button {
+      width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #bolum8 {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .b8_img img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-top: 0;
+  }
+
+  .b8_content {
+      width: 100%;
+      padding: 0 10px;
+  }
+
+  .reservation .form-row {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .reservation .form-row input, 
+  .reservation .form-row textarea {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .b8_content .reservation button {
+      width: 100%;
+      padding: 10px;
+  }
+
+  #bolum8 h2 {
+      font-size: 36px;
+      text-align: center;
+  }
+}
