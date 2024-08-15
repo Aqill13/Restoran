@@ -1065,7 +1065,8 @@
     gap: 20px;
 }
 
-.reservation .form-row input,.reservation .form-row textarea {
+.reservation .form-row input,
+.reservation .form-row textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
@@ -1073,7 +1074,8 @@
     border: 1px solid #999;
     border-radius: 10px;
 }
-.b8_content .reservation button{
+
+.b8_content .reservation button {
     padding: 10px;
     width: 100%;
     border-radius: 10px;
@@ -1083,17 +1085,19 @@
     transition: 0.3s ease-in-out;
     color: #fff;
 }
-.b8_content .reservation button:hover{
+
+.b8_content .reservation button:hover {
     background-color: #fff;
     color: #FFA500;
 }
 
-.modal-body{
+.modal-body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
 }
-.modal-body-item{
+
+.modal-body-item {
     background-color: rgba(255, 179, 0, 0.197);
     display: flex;
     align-items: center;
@@ -1103,10 +1107,12 @@
     font-size: 22px;
     position: relative;
 }
-.modal-body-item label{
+
+.modal-body-item label {
     margin-right: 35px;
 }
-.modal-body-item input{
+
+.modal-body-item input {
     position: absolute;
     top: 50%;
     left: 60%;
@@ -1115,26 +1121,80 @@
     height: 20px;
 }
 
+
+
+/*? ========================= */
+/*?  MENU PAGE CSS            */
+/*? ========================= */
+
+.menu-header{
+    
+    background-image: url(images/menuheader.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-header-content{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 76% 24% 40% 60% / 40% 69% 31% 60%;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.menu-header h2{
+    font-size: 55px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.menu-header p{
+    color: #9e9e9d;
+}
+.menu-header p a{
+    cursor: pointer;
+    color: #dedede !important;
+}
+.menu-header p a:first-child{
+    color: #c9c9c9 !important;
+}
+.menu-header p a:hover{
+    color: #fff !important;
+}
+
+
+
+
+
+
 /*? FOOTER */
 
-footer section h5{
+footer section h5 {
     font-size: 40px;
     color: #FFA500;
 }
 
-.row .mx-auto h6{
+.row .mx-auto h6 {
     font-size: 22px;
     color: #ffffff;
 }
 
-.row .mx-auto p a{
+.row .mx-auto p a {
     text-decoration: none;
     color: #a0a0a0;
     cursor: pointer;
 }
-.row .mx-auto p a:hover{
+
+.row .mx-auto p a:hover {
     color: #FFA500;
 }
-.mx-auto:not(:first-of-type){
+
+.mx-auto:not(:first-of-type) {
     text-align: start !important;
 }

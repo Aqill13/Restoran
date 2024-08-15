@@ -68,12 +68,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Linkler (ortada) -->
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link activelink">Ev</a></li>
-            <li class="nav-item"><a class="nav-link">Menyu</a></li>
-            <li class="nav-item"><a class="nav-link">Haqqımızda</a></li>
-            <li class="nav-item"><a class="nav-link">Rezervasiya</a></li>
-            <li class="nav-item"><a class="nav-link">Qaleriya</a></li>
-            <li class="nav-item"><a class="nav-link">Əlaqə</a></li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link activelink">Ev</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">Menyu</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Haqqımızda</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Rezervasiya</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Qaleriya</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Əlaqə</a>
+            </li>
           </ul>
 
           <!-- Giriş ve Kayıt Butonları (en sağda) -->
@@ -200,7 +212,7 @@
         </div>
       </section>
 
-      <!--? Bölüm 3 -->
+      <!--? Bölüm 3 (Haqqımızda)-->
       <section id="bolum3" class="sayfa">
         <div class="b3_boxes">
           <div class="b3_img">
@@ -227,7 +239,7 @@
         </div>
       </section>
 
-      <!--? Bölüm 4 -->
+      <!--? Bölüm 4 (Kateqoriyalar)-->
       <section id="bolum4" class="sayfa">
         <h2>Kateqoriyalar</h2>
         <div
@@ -287,7 +299,7 @@
         </div>
       </section>
 
-      <!--? Bölüm 5 -->
+      <!--? Bölüm 5 (Populyar yemekler)-->
       <section id="bolum5" class="sayfa">
         <h2>Populyar yeməklər</h2>
         <div
@@ -365,7 +377,7 @@
           </div>
         </div>
       </section>
-      <!--? Bölüm 6 -->
+      <!--? Bölüm 6 (Endirimler) -->
       <section id="bolum6" class="sayfa">
         <h2>Günün Endirimləri</h2>
         <div
@@ -492,7 +504,7 @@
         </div>
       </section>
 
-      <!--? Bolum 7 -->
+      <!--? Bolum 7 (Qaleriya) -->
       <div class="gallery_1 sayfa" unique-script-id="w-w-dm-id">
         <div class="responsive-container-block bigContainer">
           <div class="responsive-container-block Container">
@@ -694,7 +706,13 @@
                 data-bs-target="#tableModal"
               />
               <!-- Modal -->
-              <div class="modal fade" id="tableModal" tabindex="-1" aria-labelledby="tableModalLabel" aria-hidden="true">
+              <div
+                class="modal fade"
+                id="tableModal"
+                tabindex="-1"
+                aria-labelledby="tableModalLabel"
+                aria-hidden="true"
+              >
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -704,54 +722,121 @@
                         class="btn-close"
                         data-bs-dismiss="modal"
                         aria-label="Close"
-                        style="width: 20px; height: 20px; background-color: transparent;"
+                        style="
+                          width: 20px;
+                          height: 20px;
+                          background-color: transparent;
+                        "
                       ></button>
+                    </div>
+                    <div class="NotTableAlert" style="padding: 5px 20px;">
+                      <div
+                        class="alert alert-warning text-center warningAlertReservationTable"
+                        style="display: none"
+                      >
+                        <p>Zəhmət olmasa bir masa nömrəsi seçin</p>
+                      </div>
                     </div>
                     <div class="modal-body">
                       <div class="modal-body-item">
                         <label for="table1">1</label>
-                        <input type="radio" id="table1" name="tableNumber" value="1"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="1"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">2</label>
-                        <input type="radio" id="table1" name="tableNumber" value="2"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="2"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">3</label>
-                        <input type="radio" id="table1" name="tableNumber" value="3"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="3"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">4</label>
-                        <input type="radio" id="table1" name="tableNumber" value="4"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="4"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">5</label>
-                        <input type="radio" id="table1" name="tableNumber" value="5"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="5"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">6</label>
-                        <input type="radio" id="table1" name="tableNumber" value="6"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="6"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">7</label>
-                        <input type="radio" id="table1" name="tableNumber" value="7"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="7"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">8</label>
-                        <input type="radio" id="table1" name="tableNumber" value="8"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="8"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">9</label>
-                        <input type="radio" id="table1" name="tableNumber" value="9"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="9"
+                        />
                       </div>
                       <div class="modal-body-item">
                         <label for="table1">10</label>
-                        <input type="radio" id="table1" name="tableNumber" value="10"/>
+                        <input
+                          type="radio"
+                          id="table1"
+                          name="tableNumber"
+                          value="10"
+                        />
                       </div>
-                      
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-primary" onclick="selectTable()">Seç</button>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        onclick="selectTable()"
+                      >
+                        Seç
+                      </button>
                     </div>
                   </div>
                 </div>
