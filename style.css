@@ -1088,6 +1088,33 @@
     color: #FFA500;
 }
 
+.modal-body{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.modal-body-item{
+    background-color: rgba(255, 179, 0, 0.197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 22px;
+    position: relative;
+}
+.modal-body-item label{
+    margin-right: 35px;
+}
+.modal-body-item input{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+}
+
 /*? FOOTER */
 
 footer section h5{

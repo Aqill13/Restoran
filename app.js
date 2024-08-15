@@ -27,3 +27,13 @@ $(document).ready(function() {
       $(".overlay").hide();
     });
   });
+
+//? Bolum 8 Rezervasiya
+function selectTable() {
+  const selectedTable = document.querySelector('input[name="tableNumber"]:checked');
+  if (selectedTable) {
+      document.getElementById('tableNumberInput').value = selectedTable.value;
+  }
+  var modal = bootstrap.Modal.getInstance(document.getElementById('tableModal'));
+  modal.hide();
+}
