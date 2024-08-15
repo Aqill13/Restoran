@@ -178,6 +178,14 @@
           pauseOnHover: true,
           arrows: false,
           pagination: false,
+          breakpoints: {
+            800: {
+              perPage: 6
+            },
+            500: {
+              perPage: 3
+            }
+          }
         }).mount();
 
         var splideRoot = document.querySelector(".splide");
