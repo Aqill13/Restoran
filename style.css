@@ -1135,3 +1135,6 @@ footer section h5{
 .row .mx-auto p a:hover{
     color: #FFA500;
 }
+.mx-auto:not(:first-of-type){
+    text-align: start !important;
+}
