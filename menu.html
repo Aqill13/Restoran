@@ -167,10 +167,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
     <script>
+<<<<<<< HEAD
       document.querySelectorAll(".splide__list").forEach(function (list) {
         let isDown = false;
         let startX;
         let scrollLeft;
+=======
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide(".splide", {
+          type: "loop",
+          gap: 20,
+          perPage: 8,
+          autoplay: true,
+          interval: 0,
+          speed: 200000,
+          pauseOnHover: true,
+          arrows: false,
+          pagination: false,
+          breakpoints: {
+            800: {
+              perPage: 6
+            },
+            500: {
+              perPage: 3
+            }
+          }
+        }).mount();
+>>>>>>> ff561a3a0b6f9e7c0cc3a295987f8b4e9a565958
 
         list.addEventListener("mousedown", (e) => {
           isDown = true;
