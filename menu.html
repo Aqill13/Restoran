@@ -110,7 +110,7 @@
       <!-- MENU KATEGORIYALAR -->
       <section class="menu-category">
         <div
-          class="splide my-5"
+          class="splidee my-5"
           role="group"
           aria-label="Splide Basic HTML Example"
         >
@@ -167,29 +167,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        new Splide(".splide", {
-          type: "loop",
-          gap: 20,
-          perPage: 8,
-          autoplay: true,
-          interval: 0,
-          speed: 200000,
-          pauseOnHover: true,
-          arrows: false,
-          pagination: false,
-        }).mount();
+      document.querySelectorAll(".splide__list").forEach(function (list) {
+        let isDown = false;
+        let startX;
+        let scrollLeft;
 
-        var splideRoot = document.querySelector(".splide");
-
-        splideRoot.addEventListener("mouseenter", function () {
-          splide.Components.Autoplay.pause();
+        list.addEventListener("mousedown", (e) => {
+          isDown = true;
+          startX = e.pageX - list.offsetLeft;
+          scrollLeft = list.scrollLeft;
         });
 
-        splideRoot.addEventListener("mouseleave", function () {
-          splide.Components.Autoplay.play();
+        list.addEventListener("mouseleave", () => {
+          isDown = false;
+        });
+
+        list.addEventListener("mouseup", () => {
+          isDown = false;
+        });
+
+        list.addEventListener("mousemove", (e) => {
+          if (!isDown) return;
+          const x = e.pageX - list.offsetLeft;
+          const walk = (x - startX) * 1.5; // Scroll hızını ayarlayabilirsiniz
+          list.scrollLeft = scrollLeft - walk;
         });
       });
+
     </script>
   </body>
 </html>

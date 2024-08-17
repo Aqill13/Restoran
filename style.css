@@ -1127,8 +1127,8 @@
 /*?  MENU PAGE CSS            */
 /*? ========================= */
 
-.menu-header{
-    
+.menu-header {
+
     background-image: url(images/menuheader.png);
     background-size: cover;
     background-position: center;
@@ -1138,7 +1138,8 @@
     justify-content: center;
     align-items: center;
 }
-.menu-header-content{
+
+.menu-header-content {
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -1149,26 +1150,50 @@
     margin: 0 auto;
     flex-direction: column;
 }
-.menu-header h2{
+
+.menu-header h2 {
     font-size: 55px;
     letter-spacing: 2px;
     color: #fff;
 }
-.menu-header p{
+
+.menu-header p {
     color: #cbcbcb;
 }
-.menu-header p a{
+
+.menu-header p a {
     cursor: pointer;
     color: #dedede !important;
 }
-.menu-header p a:first-child{
+
+.menu-header p a:first-child {
     color: #c9c9c9 !important;
 }
-.menu-header p a:hover{
+
+.menu-header p a:hover {
     color: #fff !important;
 }
 
-.menu-category .splide__list .splide__slide{
+.menu-category .splide__track {
+    overflow-x: auto;              /* Yatay kaydırma */
+    white-space: nowrap;           /* Tek satırda tut */
+    padding-bottom: 10px;          /* Scroll bar ile içerik arasına boşluk */
+}
+
+.menu-category .splide__list {
+    display: flex;                 /* Flexbox ile yatay düzen */
+    flex-wrap: nowrap;             /* Tek satırda tut */
+    cursor: grab;                  /* Sürükleme ikonu */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.menu-category .splide__slide {
+    flex: 0 0 12.5%;               /* Her bir öğe genişliği (8 öğe için 12.5%) */
+    box-sizing: border-box;        /* Border ve padding'i genişliğe dahil et */
     border: 2px solid #555;
     border-radius: 30px;
     display: flex;
@@ -1177,16 +1202,38 @@
     height: 40px;
     cursor: pointer;
     transition: 0.2s;
+    margin-bottom: 6px;
 }
-.menu-category .splide__list .splide__slide p{
+
+.menu-category .splide__slide p {
     margin: 0;
     font-size: 19px;
     color: #555;
+    user-select: none;
 }
-.menu-category .splide__list .splide__slide:hover{
+
+.menu-category .splide__slide:hover {
     background-color: #55555523;
 }
 
+.menu-category .splide__list::-webkit-scrollbar {
+    height: 5px;
+}
+
+.menu-category .splide__list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.menu-category .splide__list::-webkit-scrollbar-thumb {
+    background-color: #adadad;
+    border-radius: 10px;
+    border: 1px solid #9d9d9d;
+}
+
+.menu-category .splide__list::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
 
 
 
