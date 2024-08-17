@@ -1127,34 +1127,15 @@
 /*?  MENU PAGE CSS            */
 /*? ========================= */
 
-.menu-header {
 
-    background-image: url(images/menuheader.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu-header{
+    text-align: center;
 }
-
-.menu-header-content {
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 76% 24% 40% 60% / 40% 69% 31% 60%;
-    width: 400px;
-    height: 300px;
-    margin: 0 auto;
-    flex-direction: column;
-}
-
 .menu-header h2 {
+    margin-top: 30px;
     font-size: 55px;
     letter-spacing: 2px;
-    color: #fff;
+    color: #333;
 }
 
 .menu-header p {

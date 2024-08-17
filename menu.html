@@ -101,10 +101,8 @@
 
     <main style="width: 80%; margin: 0 auto">
       <section class="menu-header">
-        <div class="menu-header-content">
-          <h2>Menyu</h2>
-          <p><a>Ev</a> / <a>Menyu</a></p>
-        </div>
+        <h2>Menyu</h2>
+        <p><a>Ev</a> / <a>Menyu</a></p>
       </section>
 
       <!-- MENU KATEGORIYALAR -->
@@ -167,7 +165,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
     <script>
-
+      document.querySelectorAll(".splide__list").forEach(function (list) {
+        let isDown = false;
+        let startX;
+        let scrollLeft;
         list.addEventListener("mousedown", (e) => {
           isDown = true;
           startX = e.pageX - list.offsetLeft;
@@ -188,7 +189,7 @@
           const walk = (x - startX) * 1.5; // Scroll hızını ayarlayabilirsiniz
           list.scrollLeft = scrollLeft - walk;
         });
-
+      });
     </script>
   </body>
 </html>
