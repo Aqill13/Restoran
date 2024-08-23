@@ -1220,6 +1220,9 @@
 
 
 /* ? MENU PRODUCTS */
+.products-section{
+    margin-bottom: 40px;
+}
 .products-section h2{
     margin-bottom: 20px;
 }
