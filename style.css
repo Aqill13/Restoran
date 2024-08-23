@@ -1232,14 +1232,40 @@
     gap: 20px;
 }
 .products .product {
+    position: relative;
     border: 1px solid #999;
     box-shadow: 0 2px 4px #888;
     padding: 6px;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
 }
+.product .product-favorite-icon{
+    color: #9999;
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.product .product-favorite-icon:hover{
+    color: red;
+}
 .products .product:hover{
     transform: scale(1.02);
+}
+.products .product:hover .product-favorite-icon{
+    opacity: 1;
 }
 .products .product .product-img{
     width: 100%;
