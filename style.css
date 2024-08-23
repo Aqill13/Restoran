@@ -1139,22 +1139,24 @@
 }
 
 .menu-header p {
-    color: #cbcbcb;
+    color: #e4e1e1;
 }
 
 .menu-header p a {
     cursor: pointer;
-    color: #dedede !important;
-}
-
-.menu-header p a:first-child {
     color: #c9c9c9 !important;
 }
 
 .menu-header p a:hover {
-    color: #fff !important;
+    color: #444 !important;
 }
-
+.sticky-category {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 105px;
+    z-index: 1000; 
+    background-color: #fff;
+  }
 .menu-category .splide__track {
     overflow-x: auto;              /* Yatay kaydırma */
     white-space: nowrap;           /* Tek satırda tut */
@@ -1217,6 +1219,54 @@
 }
 
 
+/* ? MENU PRODUCTS */
+.products-section h2{
+    margin-bottom: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.products .product {
+    border: 1px solid #999;
+    box-shadow: 0 2px 4px #888;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.products .product:hover{
+    transform: scale(1.02);
+}
+.products .product .product-img{
+    width: 100%;
+    border-radius: 6px;
+}
+.products .product .product-name{
+    margin-top: 8px;
+}
+.products .product .product-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products .product .product-price p{
+    margin: 0;
+    font-size: 20px;
+}
+.products .product .product-price button{
+    border-radius: 6px;
+    padding: 3px;
+    background-color: #FFA500;
+    color: #fff;
+    border: 1px solid #b48122;
+    transition: 0.3s ease-in-out;
+}
+.products .product .product-price button:hover{
+    background-color: transparent;
+    color: #444;
+    border-color: #444;
+}
 
 /*? FOOTER */
 
