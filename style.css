@@ -378,7 +378,7 @@
     letter-spacing: 1px;
 }
 
-.b3_boxes .b3_content button {
+.b3_boxes .b3_content .b3_btn {
     font-size: 19px;
     letter-spacing: 1px;
     border: 2px solid orange;
@@ -393,9 +393,10 @@
     justify-content: center;
     align-items: center;
     height: 60px;
+    text-decoration: none;
 }
 
-.b3_boxes .b3_content button::before {
+.b3_boxes .b3_content .b3_btn::before {
     content: '\00bb';
     right: 0;
     position: absolute;
@@ -405,13 +406,13 @@
     opacity: 0;
 }
 
-.b3_boxes .b3_content button:hover {
+.b3_boxes .b3_content .b3_btn:hover {
     background-color: orange;
     color: #fff;
     letter-spacing: normal;
 }
 
-.b3_boxes .b3_content button:hover::before {
+.b3_boxes .b3_content .b3_btn:hover::before {
     opacity: 1;
     right: 10px;
 }
@@ -1295,6 +1296,91 @@
     background-color: transparent;
     color: #444;
     border-color: #444;
+}
+
+
+/*? ========================= */
+/*?  ABOUT US PAGE CSS        */
+/*? ========================= */
+
+/* ! ABOUT - SECTION 1 (BIZ KIMIK) */
+
+#aboutus-section-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#aboutus-section-1 img{
+    width: 600px;
+}
+#aboutus-section-1 .aboutus-section-1-content{
+    width: 100%;
+}
+#aboutus-section-1 .aboutus-section-1-content h6 {
+    margin-top: 30px;
+    color: #FFA500;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+#aboutus-section-1 .aboutus-section-1-content h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #333;
+}
+#aboutus-section-1 .aboutus-section-1-content p{
+    color: #666666;
+    font-size: 20px;
+}
+
+/* ! ABOUT - SECTION 2  (missiyamiz) */
+
+
+#aboutus-section-2{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+#aboutus-section-2 img{
+    width: 500px;
+    margin-left: -23px;
+}
+#aboutus-section-2 .aboutus-section-2-content{
+    width: 100%;
+}
+#aboutus-section-2 .aboutus-section-2-content h6 {
+    margin-top: 30px;
+    color: #FFA500;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+#aboutus-section-2 .aboutus-section-2-content h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #333;
+}
+#aboutus-section-2 .aboutus-section-2-content p{
+    color: #666666;
+    font-size: 20px;
+}
+
+
+/* ! ABOUT - SECTION 3  (Niye Bizi Secmelisiniz) */
+
+#aboutus-section-3{
+    display: block;
+    margin: 40px 0;
+}
+
+#aboutus-section-3 h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #333;
+}
+#aboutus-section-3 h6 {
+    color: #FFA500;
+    font-weight: bold;
+    margin-bottom: -5px;
 }
 
 /*? FOOTER */

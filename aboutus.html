@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haqqımızda - Restaurant | Dadlı</title>
+
+    <!--? style css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivstyle.css" />
+
+    <!--? font aweshome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--? jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--? bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--? splide JS (SCROLL)-->
+    <link
+      href="
+              https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--? LAYOUT -->
+
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container-fluid" style="width: 80%">
+        <img src="images/logo.png" alt="logo" style="margin-left: -23px" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Ev</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">Menyu</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link activelink">Haqqımızda</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Rezervasiya</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Qaleriya</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Əlaqə</a>
+            </li>
+          </ul>
+
+          <!-- Giriş ve Kayıt Butonları (en sağda) -->
+          <div class="navbar-icon d-flex gap-3">
+            <a href="" class="authbtn">Daxil ol</a>
+            <a href="" class="authbtn">Qeydiyyat</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr style="margin: 0 auto" width="80%" />
+
+    <!--? MAIN -->
+
+    <main style="width: 80%; margin: 0 auto">
+      <!-- BOLUM 1 -->
+      <section id="aboutus-section-1">
+        <div class="aboutus-section-1-content">
+          <h6>HAQQIMIZDA</h6>
+          <h2>Biz Kimik?</h2>
+          <p>
+            "Restoranımız, ənənəvi Azərbaycan mətbəxinin dəyərlərini qoruyaraq,
+            müasir tələblərə cavab verən dadlı və keyfiyyətli yeməklər təqdim
+            etmək məqsədilə qurulub. Bizim üçün hər bir müştəri ailəmizin bir
+            üzvüdür və onlara ən yaxşı təcrübəni yaşatmaq üçün çalışırıq.
+            Sıfırdan başlamış bu səyahətimizdə sizə evinizin rahatlığını və
+            Azərbaycan mətbəxinin ləzzətlərini çatdırmağa sadiqik."
+          </p>
+        </div>
+        <img src="images/aboutusChef.png" alt="about-chef" />
+      </section>
+
+      <!-- BOLUM 2 -->
+      <section id="aboutus-section-2">
+        <img src="images/aboutMission.png" alt="about-mission" />
+        <div class="aboutus-section-2-content">
+          <h6>MƏQSƏDİMİZ</h6>
+          <h2>Missiyamız</h2>
+          <p>
+            "Missiyamız, müştərilərimizə yüksək keyfiyyətli, ləzzətli və ənənəvi
+            yeməkləri təqdim etməklə onların xoşbəxtliyini təmin etməkdir.
+            Vizyonumuz isə, həm yerli, həm də qlobal səviyyədə ən yaxşı
+            restoranlardan biri olmaq, mətbəximizin dadını dünyaya yaymaqdır."
+          </p>
+        </div>
+      </section>
+
+      <!-- BOLUM 3 -->
+      <section id="aboutus-section-3">
+        <h6>FƏRQİMİZ</h6>
+        <h2>Niyə bizi seçməlisiniz?</h2>
+        <div class="b2_boxes">
+          <div class="b2_box">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Keyfiyyətli qida</h3>
+            <p>
+              Müştərilərimizə keyfiyyətli və dadlı qidalar təqdim edirik.
+              Mətbəximizdə məhsul təzəliyi və təmizliyi prioritetdir.
+            </p>
+          </div>
+          <div class="b2_box">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h3>Sağlam qida</h3>
+            <p>
+              Sağlamlıq bizim üçün önəmlidir. Qidalarımız təbii və balanslı
+              hazırlanır, sizin sağlamlığınızı qorumağa yönəldilib.
+            </p>
+          </div>
+          <div class="b2_box">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Sürətli çatdırılma</h3>
+            <p>
+              İstədiyiniz yeməklər qısa müddət ərzində sizin qapınızda.
+              Çatdırılma xidmətimiz sürətli və etibarlıdır.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOLUM 4 -->
+      <div class="gallery_1 sayfa" unique-script-id="w-w-dm-id">
+        <div class="responsive-container-block bigContainer">
+          <div class="responsive-container-block Container">
+            <div class="b7_header">
+              <h6
+                style="color: #ffa500; font-weight: bold; margin-bottom: -5px"
+              >
+                FOTOLAR
+              </h6>
+              <h2 class="text-blk heading">Qaleriya</h2>
+            </div>
+            <div class="responsive-container-block imgContainer my-5">
+              <div class="project project1">
+                <img
+                  class="smallImage"
+                  src="https://www.netkurumsal.com/wp-content/uploads/2017/10/restoran.jpg"
+                />
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <button class="close">Close X</button>
+                    <div class="hdImgs">
+                      <img
+                        class="squareImg"
+                        src="https://www.netkurumsal.com/wp-content/uploads/2017/10/restoran.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="project project2">
+                <img
+                  class="smallImage"
+                  src="https://www.turizmaktuel.com/image-upload/news/dunyada-ilk-restoran-nerede-ve-nasil-kuruldu_1427880420.jpg"
+                />
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <button class="close">Close X</button>
+                    <div class="hdImgs">
+                      <img
+                        class="squareImg"
+                        src="https://www.turizmaktuel.com/image-upload/news/dunyada-ilk-restoran-nerede-ve-nasil-kuruldu_1427880420.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="project project3">
+                <img
+                  class="smallImage"
+                  src="https://www.izmirmekanrehberi.com/images/izmir-mekan-rehberi-izmirin-en-iyi-restoranlari-.webp"
+                />
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <button class="close">Close X</button>
+                    <div class="hdImgs">
+                      <img
+                        class="squareImg"
+                        src="https://www.izmirmekanrehberi.com/images/izmir-mekan-rehberi-izmirin-en-iyi-restoranlari-.webp"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="project project4">
+                <img
+                  class="smallImage"
+                  src="https://cdn.yemek.com/uploads/2024/01/goksu-lokantasi-ankara-2024.jpg"
+                />
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <button class="close">Close X</button>
+                    <div class="hdImgs">
+                      <img
+                        class="squareImg"
+                        src="https://cdn.yemek.com/uploads/2024/01/goksu-lokantasi-ankara-2024.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="project project5">
+                <img
+                  class="smallImage"
+                  src="https://sufra.az/wp-content/uploads/2023/01/316804082_560798572720038_3100582482483554980_n-540x380.jpg"
+                />
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <button class="close">Close X</button>
+                    <div class="hdImgs">
+                      <img
+                        class="squareImg"
+                        src="https://sufra.az/wp-content/uploads/2023/01/316804082_560798572720038_3100582482483554980_n-540x380.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="project project6">
+                <img
+                  class="smallImage"
+                  src="https://img.freepik.com/premium-photo/team-of-restaurant-professionals_236854-9003.jpg"
+                />
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <button class="close">Close X</button>
+                    <div class="hdImgs">
+                      <img
+                        class="squareImg"
+                        src="https://img.freepik.com/premium-photo/team-of-restaurant-professionals_236854-9003.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,220 +1,231 @@
 /*? Responsive  BOLUM 1 */
 
 @media (max-width: 992px) {
-    #bolum1 {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        height: auto;
-        padding: 20px;
-    }
+  #bolum1 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+  }
 
 
 
-    .food-img {
-        width: 270px; /* Küçültüldü */
-    }
+  .food-img {
+    width: 270px;
+    /* Küçültüldü */
+  }
 
-    .dialog {
-        width: 240px;
-    }
+  .dialog {
+    width: 240px;
+  }
 
-    .shape {
-        width: 20px;
-    }
+  .shape {
+    width: 20px;
+  }
 
-    .shape-4 {
-        width: 40px;
-    }
+  .shape-4 {
+    width: 40px;
+  }
 
-    .shape-5 {
-        width: 30px;
-    }
+  .shape-5 {
+    width: 30px;
+  }
 
-    .b1_text h2 {
-        font-size: 60px; /* Mobil uyum için büyütüldü */
-    }
+  .b1_text h2 {
+    font-size: 60px;
+    /* Mobil uyum için büyütüldü */
+  }
 
-    .b1_text p {
-        font-size: 1ş3em;
-        width: 90%;
-        margin: 20px auto;
-    }
+  .b1_text p {
+    font-size: 1ş3em;
+    width: 90%;
+    margin: 20px auto;
+  }
 
-    .b1_text_btns {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .b1_text_btns {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .b1_text_btns button {
-        width: 100%;
-        font-size: 20px; /* Küçültüldü */
-    }
+  .b1_text_btns button {
+    width: 100%;
+    font-size: 20px;
+    /* Küçültüldü */
+  }
 }
 
 @media (max-width: 576px) {
-    .b1_text h2 {
-        font-size: 50px; 
-    }
-    .food-img {
-        width: 200px; 
-    }
+  .b1_text h2 {
+    font-size: 50px;
+  }
 
-    .dialog {
-        width: 210px;
-    }
-    .b1_text p {
-        font-size: 1.5em;
-    }
-    .b1_text_btns button {
-        width: 100%;
-        font-size: 20px; /* Küçültüldü */
-    }
+  .food-img {
+    width: 200px;
+  }
+
+  .dialog {
+    width: 210px;
+  }
+
+  .b1_text p {
+    font-size: 1.5em;
+  }
+
+  .b1_text_btns button {
+    width: 100%;
+    font-size: 20px;
+    /* Küçültüldü */
+  }
 }
+
 @media (max-width: 415px) {
-    .b1_text h2 {
-        font-size: 40px; 
-    }
+  .b1_text h2 {
+    font-size: 40px;
+  }
 }
 
 
 /*? Responsive  Bolum 2 */
 
 @media (max-width: 992px) {
-    
-    .b2_boxes {
-      flex-direction: column;
-      gap: 30px;
-    }
-  
-    #bolum2 h2 {
-      font-size: 40px;
-    }
+
+  .b2_boxes {
+    flex-direction: column;
+    gap: 30px;
   }
-  
-@media (max-width: 768px) {
-    
-    #bolum2 {
-      padding: 30px 20px;
-    }
-  
-    .b2_boxes {
-      gap: 20px;
-    }
-  
-    .b2_boxes .b2_box {
-      padding: 30px;
-      border-radius: 40px 3px 40px 3px;
-    }
-  
-    .b2_boxes .b2_box h3 {
-      font-size: 22px;
-    }
-  
-    .b2_boxes .b2_box i {
-      width: 50px;
-      height: 50px;
-      font-size: 25px;
-    }
+
+  #bolum2 h2,
+  #aboutus-section-3 h2 {
+    font-size: 40px;
+  }
 }
-  
+
+@media (max-width: 768px) {
+
+  #bolum2 {
+    padding: 30px 20px;
+  }
+
+  .b2_boxes {
+    gap: 20px;
+  }
+
+  .b2_boxes .b2_box {
+    padding: 30px;
+    border-radius: 40px 3px 40px 3px;
+  }
+
+  .b2_boxes .b2_box h3 {
+    font-size: 22px;
+  }
+
+  .b2_boxes .b2_box i {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
 @media (max-width: 480px) {
-    /* Ekran genişliği 480px veya daha küçük olduğunda */
-    .b2_boxes .b2_box {
-      padding: 20px;
-      border-radius: 30px 3px 30px 3px;
-    }
-  
-    .b2_boxes .b2_box h3 {
-      font-size: 20px;
-    }
-  
-    .b2_boxes .b2_box i {
-      width: 40px;
-      height: 40px;
-      font-size: 20px;
-    }
-  
-    #bolum2 h2 {
-      font-size: 35px;
-    }
+
+  /* Ekran genişliği 480px veya daha küçük olduğunda */
+  .b2_boxes .b2_box {
+    padding: 20px;
+    border-radius: 30px 3px 30px 3px;
+  }
+
+  .b2_boxes .b2_box h3 {
+    font-size: 20px;
+  }
+
+  .b2_boxes .b2_box i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  #bolum2 h2,
+  #aboutus-section-3 h2 {
+    font-size: 35px;
+  }
 }
 
 /*? Responsive Bolum 3 */
 
 @media (max-width: 992px) {
-    .b3_boxes {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .b3_boxes .b3_img img {
-      width: 80%;
-      margin: 0 auto;
-      filter: drop-shadow(0 0 50px rgba(255, 166, 0, 0.49));
-    }
-  
-    .b3_boxes .b3_content {
-      margin-top: 40px;
-    }
-  
-    .b3_boxes .b3_content h2 {
-      font-size: 40px;
-    }
-  
-    .b3_boxes .b3_content p {
-      padding: 30px 20px;
-      font-size: 16px;
-    }
-  
-    .b3_boxes .b3_content button {
-      width: 180px;
-      font-size: 17px;
-      height: 50px;
-    }
+  .b3_boxes {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  
-  @media (max-width: 768px) {
-    .b3_boxes .b3_img img {
-      width: 70%;
-    }
-  
-    .b3_boxes .b3_content p {
-      padding: 20px 15px;
-      font-size: 15px;
-    }
-  
-    .b3_boxes .b3_content h2 {
-      font-size: 35px;
-    }
-  
-    .b3_boxes .b3_content button {
-      width: 100%;
-      font-size: 20px;
-      height: 45px;
-    }
+
+  .b3_boxes .b3_img img {
+    width: 80%;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 50px rgba(255, 166, 0, 0.49));
   }
-  
-  @media (max-width: 480px) {
-    .b3_boxes .b3_img img {
-      width: 100%;
-    }
-  
-    .b3_boxes .b3_content p {
-      padding: 15px 10px;
-      font-size: 14px;
-    }
-  
-    .b3_boxes .b3_content h2 {
-      font-size: 30px;
-    }
-  
-    .b3_boxes .b3_content button {
-      width: 100%;
-      font-size: 20px;
-      height: 40px;
-    }
+
+  .b3_boxes .b3_content {
+    margin-top: 40px;
   }
+
+  .b3_boxes .b3_content h2 {
+    font-size: 40px;
+  }
+
+  .b3_boxes .b3_content p {
+    padding: 30px 20px;
+    font-size: 16px;
+  }
+
+  .b3_boxes .b3_content .b3_btn {
+    width: 180px;
+    font-size: 17px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .b3_boxes .b3_img img {
+    width: 70%;
+  }
+
+  .b3_boxes .b3_content p {
+    padding: 20px 15px;
+    font-size: 15px;
+  }
+
+  .b3_boxes .b3_content h2 {
+    font-size: 35px;
+  }
+
+  .b3_boxes .b3_content .b3_btn {
+    width: 100%;
+    font-size: 20px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .b3_boxes .b3_img img {
+    width: 100%;
+  }
+
+  .b3_boxes .b3_content p {
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+  .b3_boxes .b3_content h2 {
+    font-size: 30px;
+  }
+
+  .b3_boxes .b3_content .b3_btn {
+    width: 100%;
+    font-size: 20px;
+    height: 40px;
+  }
+}
 
 
 
@@ -430,87 +441,88 @@ body {
     width: 100%;
   }
 }
-  
+
 
 /*? Bolum 8 Rezervasiya */
 @media (max-width: 1024px) {
   #bolum8 {
-      flex-direction: column;
-      padding: 20px;
+    flex-direction: column;
+    padding: 20px;
   }
 
   .b8_img {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   .b8_img img {
-      margin-right: 0;
-      margin-top: 0;
-      max-width: 80%;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 80%;
   }
 
   .b8_content {
-      width: 100%;
-      padding: 0 20px;
+    width: 100%;
+    padding: 0 20px;
   }
 
   .reservation .form-row {
-      flex-direction: column;
-      gap: 10px;
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .reservation .form-row input, 
+  .reservation .form-row input,
   .reservation .form-row textarea {
-      width: 100%;
-      margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .b8_content .reservation button {
-      width: 100%;
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   #bolum8 {
-      flex-direction: column;
-      padding: 20px;
+    flex-direction: column;
+    padding: 20px;
   }
 
   .b8_img img {
-      max-width: 100%;
-      margin-right: 0;
-      margin-top: 0;
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 0;
   }
 
   .b8_content {
-      width: 100%;
-      padding: 0 10px;
+    width: 100%;
+    padding: 0 10px;
   }
 
   .reservation .form-row {
-      flex-direction: column;
-      gap: 10px;
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .reservation .form-row input, 
+  .reservation .form-row input,
   .reservation .form-row textarea {
-      width: 100%;
-      margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .b8_content .reservation button {
-      width: 100%;
-      padding: 10px;
+    width: 100%;
+    padding: 10px;
   }
 
   #bolum8 h2 {
-      font-size: 36px;
-      text-align: center;
+    font-size: 36px;
+    text-align: center;
   }
-  .modal-body{
+
+  .modal-body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-}
+  }
 }
 
 
@@ -522,40 +534,137 @@ body {
 
 @media (max-width: 1200px) {
   .products {
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 992px) {
   .products {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
   .products {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .product .product-favorite-icon {
+    opacity: 1;
   }
 
   .products .product .product-price p {
-      font-size: 18px; /* Qiymət yazısını kiçildir */
+    font-size: 18px;
+    /* Qiymət yazısını kiçildir */
   }
 
   .products .product .product-price button {
-      padding: 5px 8px; /* Düymə ölçüsünü kiçildir */
+    padding: 5px 8px;
+    /* Düymə ölçüsünü kiçildir */
   }
 }
 
 @media (max-width: 576px) {
   .products .product {
-      padding: 8px; /* Məhsul kartlarının boşluğunu azaldır */
+    padding: 8px;
+    /* Məhsul kartlarının boşluğunu azaldır */
   }
 
   .products .product .product-price p {
-      font-size: 16px; /* Qiymət yazısını daha da kiçildir */
+    font-size: 16px;
+    /* Qiymət yazısını daha da kiçildir */
   }
 
   .products .product .product-price button {
-      padding: 4px 6px; /* Düymə ölçüsünü daha da kiçildir */
+    padding: 4px 6px;
+    /* Düymə ölçüsünü daha da kiçildir */
+  }
+}
+
+
+
+
+/*? ========================= */
+/*?  ABOUT US PAGE CSS        */
+/*? ========================= */
+
+/* General responsive settings */
+@media only screen and (max-width: 1000px) {
+
+  /* ABOUT - SECTION 1 (BIZ KIMIK) */
+  #aboutus-section-1 {
+    display: block;
+    text-align: center;
+  }
+
+  #aboutus-section-1 img {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  #aboutus-section-1 .aboutus-section-1-content {
+    width: 100%;
+  }
+
+  #aboutus-section-1 .aboutus-section-1-content h2 {
+    font-size: 40px;
+  }
+
+  #aboutus-section-1 .aboutus-section-1-content p {
+    font-size: 18px;
+  }
+
+  /* ABOUT - SECTION 2 (MISSİYAMIZ) */
+  #aboutus-section-2 {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  #aboutus-section-2 img {
+    width: 100%;
+    margin-top: 300px;
+  }
+
+  #aboutus-section-2 .aboutus-section-2-content {
+    width: 100%;
+    position: absolute;
+    bottom: 680px;
+  }
+
+  #aboutus-section-2 .aboutus-section-2-content h2 {
+    font-size: 40px;
+  }
+
+  #aboutus-section-2 .aboutus-section-2-content p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #aboutus-section-2 .aboutus-section-2-content {
+    width: 100%;
+    position: absolute;
+    bottom: 400px;
+  }
+}
+
+/* Adjustments for very small screens (max-width: 480px) */
+@media only screen and (max-width: 500px) {
+
+  #aboutus-section-1 .aboutus-section-1-content h2,
+  #aboutus-section-2 .aboutus-section-2-content h2 {
+    font-size: 35px;
+  }
+
+  #aboutus-section-2 .aboutus-section-2-content {
+    width: 100%;
+    position: absolute;
+    bottom: 300px;
+  }
+
+  #aboutus-section-1 .aboutus-section-1-content p,
+  #aboutus-section-2 .aboutus-section-2-content p {
+    font-size: 16px;
   }
 }
