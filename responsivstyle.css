@@ -537,10 +537,6 @@ body {
       grid-template-columns: 1fr;
   }
 
-  .products-section h2 {
-      font-size: 24px; /* Başlıq ölçüsünü kiçildir */
-  }
-
   .products .product .product-price p {
       font-size: 18px; /* Qiymət yazısını kiçildir */
   }
@@ -551,10 +547,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  .products-section h2 {
-      font-size: 20px; /* Başlıq ölçüsünü daha da kiçildir */
-  }
-
   .products .product {
       padding: 8px; /* Məhsul kartlarının boşluğunu azaldır */
   }
